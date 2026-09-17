@@ -1,0 +1,28 @@
+<Project>
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <MinVerTagPrefix>v</MinVerTagPrefix>
+    <Authors>cortelf</Authors>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/cortelf/nats-reply</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cortelf/nats-reply</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <Copyright>Copyright 2026 cortelf</Copyright>
+    <Description>Easy and handy C# package for building request-reply systems with NATS</Description>
+    <PackageTags>nats;messaging;rpc</PackageTags>
+
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MinVer" Version="7.0.0" PrivateAssets="all" />
+    <None Include="$(MSBuildThisFileDirectory)images/icon.png" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.7"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\Nats.Reply.Client.Hosting\Nats.Reply.Client.Hosting.csproj" />
+      <ProjectReference Include="..\Nats.Reply.Examples.ChatAssistant.Contracts\Nats.Reply.Examples.ChatAssistant.Contracts.csproj" />
+    </ItemGroup>
+
+</Project>
