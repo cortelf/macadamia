@@ -5,8 +5,8 @@
     <MinVerTagPrefix>v</MinVerTagPrefix>
     <Authors>cortelf</Authors>
     <PackageIcon>icon.png</PackageIcon>
-    <PackageProjectUrl>https://github.com/cortelf/nats-reply</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/cortelf/nats-reply</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/cortelf/macadamia</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cortelf/macadamia</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <Copyright>Copyright 2026 cortelf</Copyright>
