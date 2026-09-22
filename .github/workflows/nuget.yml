@@ -9,7 +9,7 @@ on:
       - 'v*'
 
 env:
-  SOLUTION: nats-reply.sln
+  SOLUTION: macadamia.slnx
   DOTNET_VERSION: '10.0.x'
   DOTNET_NOLOGO: 'true'
   DOTNET_CLI_TELEMETRY_OPTOUT: 'true'

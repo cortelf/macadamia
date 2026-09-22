@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/client/">
+    <Project Path="src/Macadamia.Client.Hosting/Macadamia.Client.Hosting.csproj" />
+    <Project Path="src/Macadamia.Client/Macadamia.Client.csproj" />
+  </Folder>
+  <Folder Name="/examples/">
+    <Project Path="examples/Macadamia.Client.Examples.Hosting/Macadamia.Client.Examples.Hosting.csproj" />
+    <Project Path="examples/Macadamia.Examples.ChatAssistant.Contracts/Macadamia.Examples.ChatAssistant.Contracts.csproj" />
+    <Project Path="examples/Macadamia.Server.Examples.Hosting/Macadamia.Server.Examples.Hosting.csproj" />
+  </Folder>
+  <Folder Name="/server/">
+    <Project Path="src/Macadamia.Server.Hosting/Macadamia.Server.Hosting.csproj" />
+    <Project Path="src/Macadamia.Server/Macadamia.Server.csproj" />
+  </Folder>
+  <Project Path="src/Macadamia.Core/Macadamia.Core.csproj" />
+  <Project Path="src/Macadamia.Hosting.Shared/Macadamia.Hosting.Shared.csproj" />
+  <Project Path="src/Macadamia.Serializers.Json/Macadamia.Serializers.Json.csproj" />
+</Solution>
